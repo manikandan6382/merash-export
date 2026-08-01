@@ -49,7 +49,7 @@ export default function Hero({ onSelectTab }) {
           {/* Sunset Container Vessel Background Image */}
           <img
             src="/images/full-hero-ship.png"
-            alt="Merash Export Global Freight Container Vessel"
+            alt="Merash Exporters Global Freight Container Vessel"
             className="absolute inset-0 w-full h-full object-cover object-center"
           />
 
@@ -82,16 +82,16 @@ export default function Hero({ onSelectTab }) {
               <div className="flex flex-wrap items-center gap-3 pt-2">
                 {/* Start Call Button */}
                 <a
-                  href="tel:9876543210"
+                  href="tel:8940190380"
                   className="flex items-center gap-2.5 px-6 py-3.5 rounded-full bg-gradient-to-r from-amber-500 via-amber-400 to-amber-500 text-slate-950 text-xs sm:text-sm font-extrabold shadow-2xl shadow-amber-500/30 hover:scale-[1.03] transition-all"
                 >
                   <Phone className="w-4 h-4 fill-current" />
-                  <span>Call +91 98765 43210</span>
+                  <span>Call +91 89401 90380</span>
                 </a>
 
                 {/* WhatsApp Chat Button */}
                 <a
-                  href="https://wa.me/919876543210?text=Hi%20Merash%20Export,%20I%20want%20to%20inquire%20about%20export%20freight"
+                  href="https://wa.me/918940190380?text=Hi%20Merash%20Exporters,%20I%20want%20to%20inquire%20about%20export%20freight"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 px-5 py-3.5 rounded-full bg-emerald-600 hover:bg-emerald-500 text-white text-xs sm:text-sm font-bold shadow-xl transition-all"

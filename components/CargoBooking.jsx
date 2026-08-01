@@ -163,7 +163,7 @@ export default function CargoBooking({ isOpen, onClose }) {
 
           <div className="flex items-center gap-2">
             <a
-              href={`https://wa.me/919876543210?text=Hi%20Merash%20Export,%20I%20want%20to%20confirm%20a%20quote%20for%20${weightKg}KG%20${cargoType}%20to%20${destination}`}
+              href={`https://wa.me/918940190380?text=Hi%20Merash%20Exporters,%20I%20want%20to%20confirm%20a%20quote%20for%20${weightKg}KG%20${cargoType}%20to%20${destination}`}
               target="_blank"
               rel="noopener noreferrer"
               className="px-4 py-2.5 rounded-xl bg-emerald-500 hover:bg-emerald-600 text-white text-xs font-bold flex items-center gap-1.5 shadow-lg"
@@ -175,7 +175,7 @@ export default function CargoBooking({ isOpen, onClose }) {
         </div>
 
         <p className="text-[11px] text-slate-500 text-center">
-          For custom packing, phytosanitary certificates or urgent shipping assistance, call direct: <a href="tel:9876543210" className="text-blue-600 dark:text-blue-400 font-bold">+91 98765 43210</a>.
+          For custom packing, phytosanitary certificates or urgent shipping assistance, call direct: <a href="tel:8940190380" className="text-blue-600 dark:text-blue-400 font-bold">+91 89401 90380</a>.
         </p>
 
       </div>

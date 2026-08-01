@@ -8,7 +8,7 @@ export default function LiveChat({ isOpen, setIsOpen }) {
     {
       id: 1,
       sender: 'bot',
-      text: 'Hello! 👋 Welcome to Merash Export Assistant. How can I help you with your shipment today?',
+      text: 'Hello! 👋 Welcome to Merash Exporters Support Assistant. How can I help you with your shipment today?',
       time: 'Just now'
     }
   ]);
@@ -32,13 +32,13 @@ export default function LiveChat({ isOpen, setIsOpen }) {
 
     // Simulate auto-reply
     setTimeout(() => {
-      let replyText = "Thank you for reaching out! Our export documentation specialist is ready to assist you. For instant rates and container availability, please connect directly via WhatsApp or call us at +91 98765 43210.";
+      let replyText = "Thank you for reaching out! Our export documentation specialist is ready to assist you. For instant rates and container availability, please connect directly via WhatsApp or call us at +91 89401 90380.";
       
       if (query.includes('WhatsApp')) {
-        window.open('https://wa.me/919876543210?text=Hi%20Merash%20Export,%20I%20want%20to%20inquire%20about%20export%20freight', '_blank');
-        replyText = "Opening WhatsApp chat with our export officer (+91 98765 43210)...";
+        window.open('https://wa.me/918940190380?text=Hi%20Merash%20Exporters,%20I%20want%20to%20inquire%20about%20export%20freight', '_blank');
+        replyText = "Opening WhatsApp chat with our export officer (+91 89401 90380)...";
       } else if (query.includes('quote')) {
-        replyText = "To get an accurate freight quote, please provide your commodity type, estimated weight (in KG/Tons), and target destination port (e.g. Dubai, Singapore, Rotterdam). You can also call +91 98765 43210 for instant pricing!";
+        replyText = "To get an accurate freight quote, please provide your commodity type, estimated weight (in KG/Tons), and target destination port (e.g. Dubai, Singapore, Rotterdam). You can also call +91 89401 90380 for instant pricing!";
       } else if (query.includes('ports')) {
         replyText = "We operate direct FCL and LCL container sailings from Port of Nhava Sheva (JNPT), Chennai Port, Mundra Port, and Kolkata Port, plus Air Cargo from Mumbai and Delhi terminals!";
       }
@@ -71,7 +71,7 @@ export default function LiveChat({ isOpen, setIsOpen }) {
                 <Bot className="w-5 h-5 text-white" />
               </div>
               <div>
-                <h4 className="text-xs font-bold">Merash Export Support</h4>
+                <h4 className="text-xs font-bold">Merash Exporters Support</h4>
                 <p className="text-[10px] text-blue-100 flex items-center gap-1">
                   <span className="w-1.5 h-1.5 rounded-full bg-emerald-400" /> Online | Response &lt; 2 mins
                 </p>
@@ -80,9 +80,9 @@ export default function LiveChat({ isOpen, setIsOpen }) {
 
             <div className="flex items-center gap-1">
               <a
-                href="tel:9876543210"
+                href="tel:8940190380"
                 className="p-1.5 rounded-lg bg-white/10 hover:bg-white/20 text-white"
-                title="Call 98765 43210"
+                title="Call 89401 90380"
               >
                 <Phone className="w-4 h-4" />
               </a>
@@ -152,12 +152,12 @@ export default function LiveChat({ isOpen, setIsOpen }) {
 
           {/* Direct WhatsApp Callout */}
           <a
-            href="https://wa.me/919876543210?text=Hi%20Merash%20Export,%20I%20want%20to%20inquire%20about%20export%20shipment"
+            href="https://wa.me/918940190380?text=Hi%20Merash%20Exporters,%20I%20want%20to%20inquire%20about%20export%20shipment"
             target="_blank"
             rel="noopener noreferrer"
             className="py-2 px-4 bg-emerald-600 text-white text-[11px] font-bold text-center flex items-center justify-center gap-1.5 hover:bg-emerald-700 transition-colors"
           >
-            <MessageCircle className="w-3.5 h-3.5 fill-current" /> Direct Chat on WhatsApp (+91 98765 43210)
+            <MessageCircle className="w-3.5 h-3.5 fill-current" /> Direct Chat on WhatsApp (+91 89401 90380)
           </a>
 
         </div>

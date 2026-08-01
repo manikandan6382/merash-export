@@ -27,19 +27,19 @@ export default function Footer({ onOpenQuote, onSelectTab }) {
           <div className="flex items-center gap-3 relative z-10 shrink-0">
             {/* Call Us 24/7 Button */}
             <a
-              href="tel:9876543210"
+              href="tel:8940190380"
               className="px-5 py-3 rounded-full bg-slate-900 border border-slate-700 hover:border-amber-400 text-white font-extrabold flex items-center gap-2.5 shadow-lg transition-all"
             >
               <Phone className="w-4 h-4 text-amber-400" />
               <div className="text-left">
                 <span className="text-[9px] text-slate-400 block font-normal leading-none">Call Us 24/7</span>
-                <span className="text-xs text-white font-bold">+91 98765 43210</span>
+                <span className="text-xs text-white font-bold">+91 89401 90380</span>
               </div>
             </a>
 
             {/* WhatsApp Us Button */}
             <a
-              href="https://wa.me/919876543210?text=Hi%20Merash%20Export,%20I%20want%20to%20export%20my%20cargo"
+              href="https://wa.me/918940190380?text=Hi%20Merash%20Exporters,%20I%20want%20to%20export%20my%20cargo"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-3.5 rounded-full bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-xs flex items-center gap-2 shadow-xl transition-all"
@@ -61,7 +61,7 @@ export default function Footer({ onOpenQuote, onSelectTab }) {
               </div>
               <div>
                 <span className="font-extrabold text-lg text-white font-brand">
-                  MERASH <span className="text-amber-400">EXPORT</span>
+                  MERASH <span className="text-amber-400">EXPORTERS</span>
                 </span>
                 <p className="text-[9px] uppercase tracking-widest text-slate-400 font-semibold">
                   GLOBAL FREIGHT & EXPORT LOGISTICS
@@ -111,11 +111,11 @@ export default function Footer({ onOpenQuote, onSelectTab }) {
             <div className="space-y-2 text-slate-300">
               <div className="flex items-center gap-2">
                 <Phone className="w-3.5 h-3.5 text-amber-400 shrink-0" />
-                <a href="tel:9876543210" className="font-bold hover:text-amber-400">+91 98765 43210</a>
+                <a href="tel:8940190380" className="font-bold hover:text-amber-400">+91 89401 90380</a>
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="w-3.5 h-3.5 text-emerald-400 shrink-0" />
-                <span className="truncate">export@merashexport.com</span>
+                <span className="truncate">export@merashexporters.com</span>
               </div>
               <div className="flex items-start gap-2">
                 <MapPin className="w-3.5 h-3.5 text-blue-400 shrink-0 mt-0.5" />
@@ -128,7 +128,7 @@ export default function Footer({ onOpenQuote, onSelectTab }) {
 
         {/* Bottom Bar */}
         <div className="pt-6 border-t border-slate-800/80 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-slate-500">
-          <p>© 2026 Merash Export. All Rights Reserved.</p>
+          <p>© 2026 Merash Exporters. All Rights Reserved.</p>
           <div className="flex items-center gap-4">
             <span className="hover:text-slate-300 cursor-pointer">Privacy Policy</span>
             <span>•</span>

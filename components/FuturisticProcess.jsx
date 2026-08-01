@@ -12,7 +12,7 @@ export default function FuturisticProcess() {
       stepNumber: '01',
       tag: 'INITIALIZING',
       title: 'Export Verification Engine',
-      description: 'Merash Export Engine validates HS Codes, APEDA standards, and port customs compliance parameters.',
+      description: 'Merash Exporters Engine validates HS Codes, APEDA standards, and port customs compliance parameters.',
     },
     {
       id: 2,
@@ -78,7 +78,7 @@ export default function FuturisticProcess() {
                 </div>
 
                 <p className="text-xs text-slate-300 leading-relaxed font-normal">
-                  DocsAI export engine wakes up with intelligence. Validates HS Codes, APEDA requirements, and customs parameters.
+                  Merash Exporters engine wakes up with intelligence. Validates HS Codes, APEDA requirements, and customs parameters.
                 </p>
 
                 {/* Glowing Active Progress Bar */}
@@ -135,7 +135,7 @@ export default function FuturisticProcess() {
                 </div>
 
                 <p className="text-xs text-slate-300 leading-relaxed font-normal">
-                  All document types and packing manifests flow seamlessly into DocsAI for automated port customs seal clearance.
+                  All document types and packing manifests flow seamlessly into Merash Exporters for automated port customs seal clearance.
                 </p>
 
                 {/* Glowing Active Progress Bar */}
@@ -238,7 +238,7 @@ export default function FuturisticProcess() {
                     <FileText className="w-8 h-8 text-slate-950" />
                   </div>
                   <span className="text-3xl font-extrabold tracking-tight text-white font-brand drop-shadow-[0_0_15px_rgba(255,255,255,0.4)]">
-                    Merash<span className="text-blue-400">AI</span>
+                    Merash<span className="text-blue-400">Exporters</span>
                   </span>
                 </div>
 
