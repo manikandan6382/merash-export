@@ -49,7 +49,7 @@ export default function Hero({ onSelectTab }) {
           {/* Sunset Container Vessel Background Image */}
           <img
             src="/images/full-hero-ship.png"
-            alt="Merash Express Global Freight Container Vessel"
+            alt="Merash Export Global Freight Container Vessel"
             className="absolute inset-0 w-full h-full object-cover object-center"
           />
 
@@ -91,7 +91,7 @@ export default function Hero({ onSelectTab }) {
 
                 {/* WhatsApp Chat Button */}
                 <a
-                  href="https://wa.me/919876543210?text=Hi%20Merash%20Express,%20I%20want%20to%20inquire%20about%20export%20freight"
+                  href="https://wa.me/919876543210?text=Hi%20Merash%20Export,%20I%20want%20to%20inquire%20about%20export%20freight"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 px-5 py-3.5 rounded-full bg-emerald-600 hover:bg-emerald-500 text-white text-xs sm:text-sm font-bold shadow-xl transition-all"

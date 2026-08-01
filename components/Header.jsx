@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Phone, ArrowRight, MessageCircle, Menu, X, Ship, Compass, Package, Image as ImageIcon, Briefcase, HelpCircle, PhoneCall } from 'lucide-react';
+import { Phone, ArrowRight, MessageCircle, Menu, X, Compass, Package, Image as ImageIcon, Briefcase, HelpCircle, PhoneCall } from 'lucide-react';
 
 export default function Header({ activeTab, setActiveTab, onOpenQuote }) {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -43,7 +43,7 @@ export default function Header({ activeTab, setActiveTab, onOpenQuote }) {
           <div>
             <div className="flex items-center gap-1.5">
               <span className="font-extrabold text-sm sm:text-base md:text-lg tracking-tight text-white font-brand whitespace-nowrap">
-                MERASH <span className="text-amber-400">EXPRESS</span>
+                MERASH <span className="text-amber-400">EXPORT</span>
               </span>
             </div>
             <p className="text-[8px] sm:text-[9px] uppercase tracking-widest text-slate-400 font-semibold truncate max-w-[170px] sm:max-w-none">
@@ -105,7 +105,7 @@ export default function Header({ activeTab, setActiveTab, onOpenQuote }) {
 
           {/* Direct Phone / WhatsApp Button Pill */}
           <a
-            href="https://wa.me/919876543210?text=Hi%20Merash%20Express,%20I%20want%20to%20inquire%20about%20export%20freight"
+            href="https://wa.me/919876543210?text=Hi%20Merash%20Export,%20I%20want%20to%20inquire%20about%20export%20freight"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-1.5 text-[11px] sm:text-xs font-bold px-2.5 sm:px-3.5 py-1.5 sm:py-2 rounded-full bg-slate-900 border border-slate-700 text-white hover:border-emerald-500 transition-all"
@@ -195,7 +195,7 @@ export default function Header({ activeTab, setActiveTab, onOpenQuote }) {
             </a>
 
             <a
-              href="https://wa.me/919876543210?text=Hi%20Merash%20Express,%20I%20want%20to%20inquire%20about%20export%20freight"
+              href="https://wa.me/919876543210?text=Hi%20Merash%20Export,%20I%20want%20to%20inquire%20about%20export%20freight"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2.5 rounded-xl bg-emerald-600 text-white font-bold flex items-center justify-center gap-1.5 shadow-md"

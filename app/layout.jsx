@@ -1,20 +1,19 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'Merash Express | Premier Export & Global Cargo Solutions',
-  description: 'Fast, secure, and transparent international export, air freight, container shipping & customs clearance.',
-  keywords: 'export, import, cargo, shipment, global freight, Nhava Sheva, air cargo, container booking, Merash Express',
+  title: 'Merash Export | Premier Export & Global Cargo Solutions',
+  description: 'Leading B2B Export & Freight Forwarding Company from India. High-quality Spices, Textiles, Kitchenware, Rice & Industrial Products. 100% Customs Clearance & 24/7 Satellite Vessel Tracking.',
+  keywords: 'export, import, cargo, shipment, global freight, Nhava Sheva, air cargo, container booking, Merash Export',
+};
+
+export const viewport = {
+  themeColor: '#070a10',
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="dark">
-      <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
-        <meta name="theme-color" content="#0b0f17" />
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-      </head>
-      <body className="antialiased min-h-screen pb-20 md:pb-0 selection:bg-blue-500 selection:text-white">
+    <html lang="en" className="dark scroll-smooth">
+      <body className="bg-[#070a10] text-slate-100 font-sans antialiased selection:bg-amber-400 selection:text-slate-950">
         {children}
       </body>
     </html>

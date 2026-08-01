@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
+import FuturisticProcess from '../components/FuturisticProcess';
 import ProductShowcase from '../components/ProductShowcase';
 import LiveTracking from '../components/LiveTracking';
 import ShipmentGallery from '../components/ShipmentGallery';
@@ -43,11 +44,13 @@ export default function Home() {
         onOpenQuote={() => setIsQuoteOpen(true)}
       />
 
-      {/* Hero Section & Freight Calculator */}
+      {/* Full-Width Hero Section */}
       <Hero
-        onOpenQuote={() => setIsQuoteOpen(true)}
         onSelectTab={handleTabChange}
       />
+
+      {/* 3-Step Futuristic Export Pipeline (DocsAI Style CSS Animation) */}
+      <FuturisticProcess />
 
       {/* Export Commodities Catalog */}
       <ProductShowcase
@@ -93,7 +96,6 @@ export default function Home() {
           className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/95 backdrop-blur-md"
           onClick={() => setSelectedLightboxImage(null)}
         >
-          {/* Prominent Close 'X' Button */}
           <button
             onClick={() => setSelectedLightboxImage(null)}
             className="absolute top-4 right-4 z-50 p-3 rounded-full bg-slate-800/90 text-white hover:bg-amber-400 hover:text-slate-950 transition-all shadow-2xl border border-slate-700"

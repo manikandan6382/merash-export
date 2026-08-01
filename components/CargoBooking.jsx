@@ -23,7 +23,7 @@ export default function CargoBooking({ isOpen, onClose }) {
         <div className="flex items-center justify-between border-b border-slate-200 dark:border-slate-800 pb-4">
           <div>
             <span className="text-[10px] font-extrabold text-blue-600 dark:text-blue-400 uppercase tracking-widest">
-              BookMyShow Style Cargo Space Calculator
+              Cargo Space Calculator
             </span>
             <h3 className="text-xl font-bold text-slate-900 dark:text-white">
               Instant Export Freight Quote & Slot Booking
@@ -163,7 +163,7 @@ export default function CargoBooking({ isOpen, onClose }) {
 
           <div className="flex items-center gap-2">
             <a
-              href={`https://wa.me/919876543210?text=Hi%20Merash%20Express,%20I%20want%20to%20confirm%20a%20quote%20for%20${weightKg}KG%20${cargoType}%20to%20${destination}`}
+              href={`https://wa.me/919876543210?text=Hi%20Merash%20Export,%20I%20want%20to%20confirm%20a%20quote%20for%20${weightKg}KG%20${cargoType}%20to%20${destination}`}
               target="_blank"
               rel="noopener noreferrer"
               className="px-4 py-2.5 rounded-xl bg-emerald-500 hover:bg-emerald-600 text-white text-xs font-bold flex items-center gap-1.5 shadow-lg"

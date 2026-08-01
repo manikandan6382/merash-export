@@ -7,7 +7,7 @@ export default function Footer({ onOpenQuote, onSelectTab }) {
     <footer className="bg-[#05070d] text-slate-400 text-xs border-t border-slate-800/80 pt-10 pb-24 md:pb-12">
       <div className="max-w-7xl mx-auto px-4 md:px-8 space-y-12">
         
-        {/* Instant Export Support Callout Banner (Matching Screenshot Image 2 & 3) */}
+        {/* Instant Export Support Callout Banner */}
         <div className="p-6 md:p-8 rounded-3xl bg-[#0a0f1e] border border-blue-900/40 shadow-2xl flex flex-col md:flex-row items-center justify-between gap-6 relative overflow-hidden">
           {/* Subtle Glow */}
           <div className="absolute top-0 right-0 w-64 h-64 bg-amber-500/5 rounded-full blur-3xl pointer-events-none" />
@@ -39,7 +39,7 @@ export default function Footer({ onOpenQuote, onSelectTab }) {
 
             {/* WhatsApp Us Button */}
             <a
-              href="https://wa.me/919876543210?text=Hi%20Merash%20Express,%20I%20want%20to%20export%20my%20cargo"
+              href="https://wa.me/919876543210?text=Hi%20Merash%20Export,%20I%20want%20to%20export%20my%20cargo"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-3.5 rounded-full bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-xs flex items-center gap-2 shadow-xl transition-all"
@@ -50,7 +50,7 @@ export default function Footer({ onOpenQuote, onSelectTab }) {
           </div>
         </div>
 
-        {/* Footer 4-Column Layout (Matching Screenshot Image 2 & 3) */}
+        {/* Footer 4-Column Layout */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
           
           {/* Brand Info */}
@@ -61,7 +61,7 @@ export default function Footer({ onOpenQuote, onSelectTab }) {
               </div>
               <div>
                 <span className="font-extrabold text-lg text-white font-brand">
-                  MERASH <span className="text-amber-400">EXPRESS</span>
+                  MERASH <span className="text-amber-400">EXPORT</span>
                 </span>
                 <p className="text-[9px] uppercase tracking-widest text-slate-400 font-semibold">
                   GLOBAL FREIGHT & EXPORT LOGISTICS
@@ -115,7 +115,7 @@ export default function Footer({ onOpenQuote, onSelectTab }) {
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="w-3.5 h-3.5 text-emerald-400 shrink-0" />
-                <span className="truncate">export@merashexpress.com</span>
+                <span className="truncate">export@merashexport.com</span>
               </div>
               <div className="flex items-start gap-2">
                 <MapPin className="w-3.5 h-3.5 text-blue-400 shrink-0 mt-0.5" />
@@ -126,9 +126,9 @@ export default function Footer({ onOpenQuote, onSelectTab }) {
 
         </div>
 
-        {/* Bottom Bar (Matching Screenshot Image 2 & 3) */}
+        {/* Bottom Bar */}
         <div className="pt-6 border-t border-slate-800/80 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-slate-500">
-          <p>© 2026 Merash Express. All Rights Reserved.</p>
+          <p>© 2026 Merash Export. All Rights Reserved.</p>
           <div className="flex items-center gap-4">
             <span className="hover:text-slate-300 cursor-pointer">Privacy Policy</span>
             <span>•</span>

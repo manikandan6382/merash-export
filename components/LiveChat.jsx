@@ -8,7 +8,7 @@ export default function LiveChat({ isOpen, setIsOpen }) {
     {
       id: 1,
       sender: 'bot',
-      text: 'Hello! 👋 Welcome to Merash Express Export Assistant. How can I help you with your shipment today?',
+      text: 'Hello! 👋 Welcome to Merash Export Assistant. How can I help you with your shipment today?',
       time: 'Just now'
     }
   ]);
@@ -35,7 +35,7 @@ export default function LiveChat({ isOpen, setIsOpen }) {
       let replyText = "Thank you for reaching out! Our export documentation specialist is ready to assist you. For instant rates and container availability, please connect directly via WhatsApp or call us at +91 98765 43210.";
       
       if (query.includes('WhatsApp')) {
-        window.open('https://wa.me/919876543210?text=Hi%20Merash%20Express,%20I%20want%20to%20inquire%20about%20export%20freight', '_blank');
+        window.open('https://wa.me/919876543210?text=Hi%20Merash%20Export,%20I%20want%20to%20inquire%20about%20export%20freight', '_blank');
         replyText = "Opening WhatsApp chat with our export officer (+91 98765 43210)...";
       } else if (query.includes('quote')) {
         replyText = "To get an accurate freight quote, please provide your commodity type, estimated weight (in KG/Tons), and target destination port (e.g. Dubai, Singapore, Rotterdam). You can also call +91 98765 43210 for instant pricing!";
@@ -152,7 +152,7 @@ export default function LiveChat({ isOpen, setIsOpen }) {
 
           {/* Direct WhatsApp Callout */}
           <a
-            href="https://wa.me/919876543210?text=Hi%20Merash%20Express,%20I%20want%20to%20inquire%20about%20export%20shipment"
+            href="https://wa.me/919876543210?text=Hi%20Merash%20Export,%20I%20want%20to%20inquire%20about%20export%20shipment"
             target="_blank"
             rel="noopener noreferrer"
             className="py-2 px-4 bg-emerald-600 text-white text-[11px] font-bold text-center flex items-center justify-center gap-1.5 hover:bg-emerald-700 transition-colors"
