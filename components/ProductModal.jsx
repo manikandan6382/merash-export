@@ -104,22 +104,44 @@ export default function ProductModal({ product, onClose, onOpenQuote }) {
             {/* Spec Section 4: Primary Uses & Utility */}
             <div className="space-y-2">
               <h4 className="text-xs font-extrabold text-slate-900 dark:text-amber-400 uppercase tracking-wider flex items-center gap-1.5">
-                <Package className="w-4 h-4 text-indigo-500" /> 4. Primary Uses & Applications
+                <Package className="w-4 h-4 text-indigo-500" /> 4. Vessel Types & Primary Uses
               </h4>
-              <ul className="space-y-1.5 text-xs text-slate-600 dark:text-slate-300 bg-slate-50 dark:bg-slate-800/60 p-3 rounded-2xl border border-slate-200 dark:border-slate-800">
-                <li className="flex items-start gap-2">
-                  <span className="text-amber-500 font-bold">🍛</span>
-                  <span><strong>Hot Food Thermal Storage:</strong> Keeps rice, curry & gravy warm 4–6 hours</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-blue-400 font-bold">🥛</span>
-                  <span><strong>Liquid Prep & Transport:</strong> Ideal for boiling milk, water, tea & liquid storage</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-emerald-400 font-bold">🚗</span>
-                  <span><strong>Multi-Purpose Utility:</strong> Home, Office, School, Hotels, Catering & Long Journeys</span>
-                </li>
-              </ul>
+              
+              {product.id === 4 ? (
+                <ul className="space-y-2 text-xs text-slate-600 dark:text-slate-300 bg-slate-50 dark:bg-slate-800/60 p-3 rounded-2xl border border-slate-200 dark:border-slate-800">
+                  <li className="flex items-start gap-2">
+                    <span className="text-amber-500 font-bold text-sm shrink-0">1️⃣</span>
+                    <span><strong>Top-Left (Milk Can / Thooku Chetti):</strong> Transporting liquids (milk, buttermilk, rasam, batters) with tight lid & swinging wire handle to prevent spills.</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-blue-400 font-bold text-sm shrink-0">2️⃣</span>
+                    <span><strong>Middle-Left (Tiffin / Dabba):</strong> Storing dry ingredients, snacks, spices, or packing lunches with contoured body & snug lid.</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-emerald-400 font-bold text-sm shrink-0">3️⃣</span>
+                    <span><strong>Right & Bottom-Left (Patila / Tapeli):</strong> Boiling milk, water & cooking rice, sambar, rasam & curries with collared edge for easy gripping.</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-indigo-400 font-bold text-sm shrink-0">4️⃣</span>
+                    <span><strong>Bottom-Right (Handi / Eeya Chombu):</strong> Slow-cooking rasam, dal, payasam & storing curd with wide belly & narrow heat-retaining neck.</span>
+                  </li>
+                </ul>
+              ) : (
+                <ul className="space-y-1.5 text-xs text-slate-600 dark:text-slate-300 bg-slate-50 dark:bg-slate-800/60 p-3 rounded-2xl border border-slate-200 dark:border-slate-800">
+                  <li className="flex items-start gap-2">
+                    <span className="text-amber-500 font-bold">🍛</span>
+                    <span><strong>Hot Food Thermal Storage:</strong> Keeps rice, curry & gravy warm 4–6 hours</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-blue-400 font-bold">🥛</span>
+                    <span><strong>Liquid Prep & Transport:</strong> Ideal for boiling milk, water, tea & liquid storage</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-emerald-400 font-bold">🚗</span>
+                    <span><strong>Multi-Purpose Utility:</strong> Home, Office, School, Hotels, Catering & Long Journeys</span>
+                  </li>
+                </ul>
+              )}
             </div>
 
             {/* Action Buttons */}

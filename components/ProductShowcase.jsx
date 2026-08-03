@@ -9,10 +9,9 @@ export default function ProductShowcase({ onOpenQuote }) {
   const [inspectingProduct, setInspectingProduct] = useState(null);
 
   const categories = [
-    { id: 'all', label: 'All Commodities (14)' },
+    { id: 'all', label: 'All Commodities (13)' },
     { id: 'kitchenware', label: 'Kitchenware & Utensils (11)' },
     { id: 'spices', label: 'Spices & Agro' },
-    { id: 'textiles', label: 'Textiles & Yarn' },
     { id: 'industrial', label: 'Industrial & Hardware' },
   ];
 
@@ -67,7 +66,7 @@ export default function ProductShowcase({ onOpenQuote }) {
     },
     {
       id: 4,
-      title: 'Stainless Steel Cookware & Carrier Set',
+      title: 'Stainless Steel Classic Cookware & Carrier Set',
       subtitle: '(Thooku Chetti, Dabba, Patila & Handi)',
       category: 'kitchenware',
       hsCode: 'HS-7323.93',
@@ -76,9 +75,10 @@ export default function ProductShowcase({ onOpenQuote }) {
       badgeColor: 'bg-slate-900 text-white',
       imgSrc: '/images/utensil-cookware-grid.jpg',
       specs: [
-        'Thooku Chetti Milk Carrier: Swinging handle & leak-proof seal',
-        'Patila & Handi Vessels: Deep cylindrical body for boiling & curries',
-        'Dabba Spice Storage: Contoured airtight lids for pantry freshness'
+        '1. Top-Left: Thooku Chetti Milk Carrier (Tight lid & swinging handle for liquids)',
+        '2. Middle-Left: Tiffin / Dabba Storage (Contoured body for spices & lunches)',
+        '3. Right & Bottom-Left: Patila / Tapeli Vessels (Collared edge for boiling & curries)',
+        '4. Bottom-Right: Handi / Eeya Chombu Pot (Wide belly for slow-cooking dal & rasam)'
       ],
     },
     {
@@ -194,22 +194,6 @@ export default function ProductShowcase({ onOpenQuote }) {
       ],
     },
     {
-      id: 12,
-      title: 'Export Grade Combed Cotton Yarn & Fabric',
-      subtitle: '100% Combed Cotton',
-      category: 'textiles',
-      hsCode: 'HS-5208.11',
-      origin: 'Coimbatore / Surat Port',
-      badge: 'Textile Hub',
-      badgeColor: 'bg-slate-900 text-white',
-      imgSrc: '/images/WhatsApp Image 2026-07-28 at 2.23.47 PM.jpeg',
-      specs: [
-        '100% Combed Cotton & Ring Spun Yarn',
-        'OEKO-TEX Standard 100 Certified',
-        'High Tensile Strength & Color Fastness'
-      ],
-    },
-    {
       id: 13,
       title: 'Export Quality 1121 Basmati Rice & Spices',
       subtitle: '(Extra Long Grain & Turmeric)',
@@ -254,7 +238,7 @@ export default function ProductShowcase({ onOpenQuote }) {
     <section id="catalog" className="py-12 bg-[#f8fafc] text-slate-900 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 md:px-8">
         
-        {/* Section Header with clean flex layout to fix filter pill wrapping */}
+        {/* Section Header with clean flex layout */}
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-8 border-b border-slate-200/80 pb-6">
           <div>
             <span className="text-[10px] font-extrabold uppercase tracking-widest text-amber-600 mb-1 block">
@@ -265,7 +249,7 @@ export default function ProductShowcase({ onOpenQuote }) {
             </h2>
           </div>
 
-          {/* Category Filter Pills with smooth horizontal scrolling */}
+          {/* Category Filter Pills */}
           <div className="flex items-center gap-2 overflow-x-auto pb-1 scrollbar-none max-w-full">
             {categories.map(cat => (
               <button
