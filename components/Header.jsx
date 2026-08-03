@@ -43,7 +43,7 @@ export default function Header({ activeTab, setActiveTab, onOpenQuote }) {
           <div>
             <div className="flex items-center gap-1.5">
               <span className="font-extrabold text-sm sm:text-base md:text-lg tracking-tight text-white font-brand whitespace-nowrap">
-                MERASH <span className="text-amber-400">EXPORTERS</span>
+                THE MERASH <span className="text-amber-400">EXPORTERS</span>
               </span>
             </div>
             <p className="text-[8px] sm:text-[9px] uppercase tracking-widest text-slate-400 font-semibold truncate max-w-[170px] sm:max-w-none">

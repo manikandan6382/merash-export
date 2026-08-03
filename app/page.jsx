@@ -3,7 +3,6 @@
 import { useState } from 'react';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
-import FuturisticProcess from '../components/FuturisticProcess';
 import ProductShowcase from '../components/ProductShowcase';
 import LiveTracking from '../components/LiveTracking';
 import ShipmentGallery from '../components/ShipmentGallery';
@@ -48,9 +47,6 @@ export default function Home() {
       <Hero
         onSelectTab={handleTabChange}
       />
-
-      {/* 3-Step Futuristic Export Pipeline (DocsAI Style CSS Animation) */}
-      <FuturisticProcess />
 
       {/* Export Commodities Catalog */}
       <ProductShowcase

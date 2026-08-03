@@ -71,7 +71,7 @@ export default function LiveChat({ isOpen, setIsOpen }) {
                 <Bot className="w-5 h-5 text-white" />
               </div>
               <div>
-                <h4 className="text-xs font-bold">Merash Exporters Support</h4>
+                <h4 className="text-xs font-bold">The Merash Exporters Support</h4>
                 <p className="text-[10px] text-blue-100 flex items-center gap-1">
                   <span className="w-1.5 h-1.5 rounded-full bg-emerald-400" /> Online | Response &lt; 2 mins
                 </p>

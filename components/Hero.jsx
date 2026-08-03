@@ -15,7 +15,7 @@ export default function Hero({ onSelectTab }) {
     <section className="relative bg-[#070a10] text-white w-full overflow-hidden">
       
       {/* Top Live Port Feed Ticker Bar */}
-      <div className="bg-[#0b101d] text-white py-2 px-4 border-y border-slate-800/80 mb-6 pb-6 overflow-hidden">
+      <div className="bg-[#0b101d] text-white py-2 px-4 pb-4 overflow-hidden">
         <div className="max-w-7xl mx-auto flex items-center gap-3 text-xs">
           <span className="flex items-center gap-1.5 font-extrabold text-amber-400 bg-amber-500/10 px-2.5 py-0.5 rounded-full border border-amber-500/30 shrink-0 text-[10px] tracking-wider uppercase">
             <span className="w-2 h-2 rounded-full bg-amber-400 animate-ping" />

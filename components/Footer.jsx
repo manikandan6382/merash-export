@@ -61,7 +61,7 @@ export default function Footer({ onOpenQuote, onSelectTab }) {
               </div>
               <div>
                 <span className="font-extrabold text-lg text-white font-brand">
-                  MERASH <span className="text-amber-400">EXPORTERS</span>
+                  THE MERASH <span className="text-amber-400">EXPORTERS</span>
                 </span>
                 <p className="text-[9px] uppercase tracking-widest text-slate-400 font-semibold">
                   GLOBAL FREIGHT & EXPORT LOGISTICS
@@ -128,7 +128,7 @@ export default function Footer({ onOpenQuote, onSelectTab }) {
 
         {/* Bottom Bar */}
         <div className="pt-6 border-t border-slate-800/80 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-slate-500">
-          <p>© 2026 Merash Exporters. All Rights Reserved.</p>
+          <p>© 2026 The Merash Exporters. All Rights Reserved.</p>
           <div className="flex items-center gap-4">
             <span className="hover:text-slate-300 cursor-pointer">Privacy Policy</span>
             <span>•</span>

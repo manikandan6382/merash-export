@@ -9,36 +9,36 @@ export default function ShipmentGallery({ onSelectImage }) {
       id: 1,
       src: '/images/WhatsApp Image 2026-07-28 at 2.23.46 PM.jpeg',
       title: 'Turmeric Stuffing - 20ft FCL',
-      category: 'Spices Export',
+      category: 'Agro Export',
       location: 'Nhava Sheva Terminal',
     },
     {
       id: 2,
       src: '/images/WhatsApp Image 2026-07-28 at 2.23.47 PM.jpeg',
       title: 'CNC Parts Stuffing - 40ft HC',
-      category: 'Industrial Parts',
+      category: 'Packaging',
       location: 'Pipavav Port',
     },
     {
       id: 3,
       src: '/images/WhatsApp Image 2026-07-28 at 2.23.48 PM (1).jpeg',
       title: 'Combed Cotton Yarn - 20ft',
-      category: 'Textile Export',
+      category: 'Packaging',
       location: 'Surat Port',
     },
     {
       id: 4,
       src: '/images/WhatsApp Image 2026-07-28 at 2.23.48 PM.jpeg',
       title: 'Hardware Export - 20ft FCL',
-      category: 'Hardware Export',
+      category: 'Port Dispatch',
       location: 'Mundra Port',
     },
     {
       id: 5,
-      src: '/images/WhatsApp Image 2026-07-28 at 2.23.49 PM (1).jpeg',
       title: 'Basmati Rice Export - 40ft HC',
       category: 'Agro Export',
       location: 'Kandla Port',
+      src: '/images/WhatsApp Image 2026-07-28 at 2.23.49 PM (1).jpeg',
     },
     {
       id: 6,
@@ -72,7 +72,7 @@ export default function ShipmentGallery({ onSelectImage }) {
       id: 10,
       src: '/images/WhatsApp Image 2026-07-28 at 2.23.51 PM (1).jpeg',
       title: 'Container Onboard',
-      category: 'Vessel Loading',
+      category: 'Port Dispatch',
       location: 'Vessel Stowage Confirmed',
     },
     {
@@ -125,8 +125,8 @@ export default function ShipmentGallery({ onSelectImage }) {
     <section id="gallery" className="py-14 bg-[#070a10] text-white relative">
       <div className="max-w-7xl mx-auto px-4 md:px-8">
         
-        {/* Section Header (Matching Screenshot Image 2 & 3) */}
-        <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8">
+        {/* Section Header */}
+        <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-8 border-b border-slate-800 pb-6">
           <div>
             <span className="text-[10px] font-extrabold uppercase tracking-widest text-amber-400 mb-1 block">
               AUTHENTIC DISPATCH PROOF GALLERY
@@ -139,16 +139,16 @@ export default function ShipmentGallery({ onSelectImage }) {
             </p>
           </div>
 
-          {/* Category Filter Pills (Matching Screenshot Image 2 & 3) */}
-          <div className="flex items-center gap-1.5 overflow-x-auto no-scrollbar pb-1">
+          {/* User-Friendly Flex Wrap Category Filter Pills (No Shift+Scroll Required!) */}
+          <div className="flex flex-wrap items-center gap-2 max-w-full">
             {categories.map(cat => (
               <button
                 key={cat}
                 onClick={() => setActiveCategory(cat)}
-                className={`px-3 py-1.5 rounded-full text-xs font-bold whitespace-nowrap transition-all ${
+                className={`px-3.5 py-1.5 rounded-full text-xs font-bold transition-all cursor-pointer ${
                   activeCategory === cat
-                    ? 'bg-amber-400 text-slate-950 shadow-md font-extrabold'
-                    : 'bg-slate-900 border border-slate-800 text-slate-400 hover:text-white'
+                    ? 'bg-amber-400 text-slate-950 shadow-md font-extrabold scale-105'
+                    : 'bg-slate-900 border border-slate-800 text-slate-400 hover:text-white hover:border-slate-700'
                 }`}
               >
                 {cat}
@@ -157,7 +157,7 @@ export default function ShipmentGallery({ onSelectImage }) {
           </div>
         </div>
 
-        {/* 15 Real Images Grid (Matching Screenshot Image 2 & 3) */}
+        {/* 15 Real Images Grid */}
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
           {filteredImages.map((img, idx) => (
             <div

@@ -1,9 +1,9 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'Merash Exporters | Premier Export & Global Cargo Solutions',
-  description: 'Leading B2B Export & Freight Forwarding Company from India. High-quality Spices, Textiles, Kitchenware, Rice & Industrial Products. 100% Customs Clearance & 24/7 Satellite Vessel Tracking.',
-  keywords: 'export, import, cargo, shipment, global freight, Nhava Sheva, air cargo, container booking, Merash Exporters',
+  title: 'The Merash Exporters | Premier Export & Global Cargo Solutions',
+  description: 'The Merash Exporters provides end-to-end B2B ocean freight, customs clearance, and commodity export logistics from India ports.',
+  keywords: 'export, import, cargo, shipment, global freight, Nhava Sheva, air cargo, container booking, The Merash Exporters',
 };
 
 export const viewport = {
