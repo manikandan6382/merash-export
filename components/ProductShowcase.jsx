@@ -10,9 +10,8 @@ export default function ProductShowcase({ onOpenQuote }) {
 
   const categories = [
     { id: 'all', label: 'All Commodities (13)' },
-    { id: 'kitchenware', label: 'Kitchenware & Utensils (11)' },
-    { id: 'spices', label: 'Spices & Agro' },
-    { id: 'industrial', label: 'Industrial & Hardware' },
+    { id: 'kitchenware', label: 'Kitchenware & Utensils (12)' },
+    { id: 'industrial', label: 'Industrial & Hardware (1)' },
   ];
 
   const products = [
@@ -195,18 +194,18 @@ export default function ProductShowcase({ onOpenQuote }) {
     },
     {
       id: 13,
-      title: 'Export Quality 1121 Basmati Rice & Spices',
-      subtitle: '(Extra Long Grain & Turmeric)',
-      category: 'spices',
-      hsCode: 'HS-1006.30',
-      origin: 'Nhava Sheva / Kandla Port',
-      badge: 'Bulk Agro',
+      title: 'Traditional Stainless Steel Milk Cans & Liquid Containers',
+      subtitle: '(Milk Cans & Dabbas with Wire Handles)',
+      category: 'kitchenware',
+      hsCode: 'HS-7323.93',
+      origin: 'Rajkot / Mundra Port (GJ)',
+      badge: 'Liquid Carrier',
       badgeColor: 'bg-slate-900 text-white',
       imgSrc: '/images/WhatsApp Image 2026-07-28 at 2.23.48 PM (1).jpeg',
       specs: [
-        'Avg Grain Length 8.35mm+ & Organic Erode Turmeric',
-        'APEDA & FSSAI Certified Export Quality',
-        'Non-GMO Tested & Fumigated Moisture Packaging'
+        'Transporting Liquids: Milk, buttermilk, oil, juice & soups safely without spills (snug-fitting lids & wire handles)',
+        'Store Food Items: Storing dry kitchen staples like grains, pulses, flour, sugar & snacks in airtight conditions',
+        'Carrying Cooked Food: Carrying large quantities of curry, sambar, dal, or rice for gatherings'
       ],
     },
     {

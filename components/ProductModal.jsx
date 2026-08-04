@@ -45,7 +45,7 @@ export default function ProductModal({ product, onClose, onOpenQuote }) {
             </div>
           </div>
 
-          {/* Right Column: Full 10-12 Detailed Specifications */}
+          {/* Right Column: Full Detailed Specifications */}
           <div className="lg:col-span-7 p-6 sm:p-8 space-y-6 max-h-[80vh] overflow-y-auto">
             
             <div className="space-y-1 border-b border-slate-200 dark:border-slate-800 pb-4">
@@ -79,11 +79,11 @@ export default function ProductModal({ product, onClose, onOpenQuote }) {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-slate-600 dark:text-slate-300 bg-slate-50 dark:bg-slate-800/60 p-3 rounded-2xl border border-slate-200 dark:border-slate-800">
                 <div className="space-y-0.5">
                   <span className="text-[10px] font-bold text-slate-400 block uppercase">Nesting Standard Sizes</span>
-                  <span className="font-extrabold text-slate-800 dark:text-white">250 ml | 500 ml | 750 ml | 1 Liter</span>
+                  <span className="font-extrabold text-slate-800 dark:text-white">250 ml | 500 ml | 750 ml | 1 Liter – 5 Liter</span>
                 </div>
                 <div className="space-y-0.5">
                   <span className="text-[10px] font-bold text-slate-400 block uppercase">Gauge Thickness</span>
-                  <span className="font-extrabold text-slate-800 dark:text-white">0.4 mm – 0.8 mm Heavy Base</span>
+                  <span className="font-extrabold text-slate-800 dark:text-white">0.4 mm – 0.8 mm Heavy Duty Base</span>
                 </div>
               </div>
             </div>
@@ -97,14 +97,14 @@ export default function ProductModal({ product, onClose, onOpenQuote }) {
                 <li className="flex items-center gap-2"><Check className="w-3.5 h-3.5 text-emerald-500 shrink-0" /> Mirror Polish (High Shine Premium Look)</li>
                 <li className="flex items-center gap-2"><Check className="w-3.5 h-3.5 text-emerald-500 shrink-0" /> Matt / Satin Finish (Modern Style)</li>
                 <li className="flex items-center gap-2"><Check className="w-3.5 h-3.5 text-emerald-500 shrink-0" /> Smooth Safety Edges (No Sharp Cuts)</li>
-                <li className="flex items-center gap-2"><Check className="w-3.5 h-3.5 text-emerald-500 shrink-0" /> Traditional + Modern Hybrid Design</li>
+                <li className="flex items-center gap-2"><Check className="w-3.5 h-3.5 text-emerald-500 shrink-0" /> Sturdy Swinging Wire Handle</li>
               </ul>
             </div>
 
             {/* Spec Section 4: Primary Uses & Utility */}
             <div className="space-y-2">
               <h4 className="text-xs font-extrabold text-slate-900 dark:text-amber-400 uppercase tracking-wider flex items-center gap-1.5">
-                <Package className="w-4 h-4 text-indigo-500" /> 4. Vessel Types & Primary Uses
+                <Package className="w-4 h-4 text-indigo-500" /> 4. Primary Uses & Functional Utility
               </h4>
               
               {product.id === 4 ? (
@@ -124,6 +124,21 @@ export default function ProductModal({ product, onClose, onOpenQuote }) {
                   <li className="flex items-start gap-2">
                     <span className="text-indigo-400 font-bold text-sm shrink-0">4️⃣</span>
                     <span><strong>Bottom-Right (Handi / Eeya Chombu):</strong> Slow-cooking rasam, dal, payasam & storing curd with wide belly & narrow heat-retaining neck.</span>
+                  </li>
+                </ul>
+              ) : product.id === 13 ? (
+                <ul className="space-y-2 text-xs text-slate-600 dark:text-slate-300 bg-slate-50 dark:bg-slate-800/60 p-3 rounded-2xl border border-slate-200 dark:border-slate-800">
+                  <li className="flex items-start gap-2">
+                    <span className="text-amber-500 font-bold text-sm shrink-0">🥛</span>
+                    <span><strong>Transporting Liquids:</strong> Transporting milk, buttermilk, oil, juice, or soups safely without spills thanks to snug-fitting lids and sturdy wire handles.</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-blue-400 font-bold text-sm shrink-0">🌾</span>
+                    <span><strong>Store Food Items:</strong> Storing dry kitchen staples like grains, pulses, flour, sugar, or snacks (cookies and namkeen) in airtight conditions.</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-emerald-400 font-bold text-sm shrink-0">🍲</span>
+                    <span><strong>Carrying Cooked Food:</strong> Carrying large quantities of curry, sambar, dal, or rice for picnics, gatherings, or potlucks.</span>
                   </li>
                 </ul>
               ) : (
